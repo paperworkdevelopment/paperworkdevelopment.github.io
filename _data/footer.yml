@@ -1,9 +1,9 @@
 - links:
-  - name: Pricing
+  - name: Prijzen
     link: /pricing/
   - name: Blog
     link: /blog/
-  - name: About
+  - name: Over
     link: /about/
   - name: Contact
     link: /contact/
@@ -11,7 +11,7 @@
   - name: Login
     link: /
     new_window: true
-  - name: Sign Up
+  - name: Registreren
     link: /
     new_window: true
   - name: Docs

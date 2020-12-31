@@ -1,4 +1,4 @@
-- name: Pricing
+- name: Prijzen
   link: /pricing/
   new_window: false
   highlight: false
@@ -6,7 +6,7 @@
   link: /blog/
   new_window: false
   highlight: false
-- name: About
+- name: Over
   link: /about/
   new_window: false
   highlight: false
@@ -18,7 +18,7 @@
   link: /
   new_window: true
   highlight: false
-- name: Sign Up
+- name: Registreren
   link: /
   new_window: true
   highlight: true
