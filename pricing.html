@@ -1,71 +1,65 @@
 ---
-title: Pricing
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+title: Prijzen
+heading: Kies het perfecte plan dat het best past bij jou
+description: Alle plannen begeleiden je naar succes en helpen je meer tijd te laten stoppen in datgene waar je goed in bent.
 pricing_table:
   - name: Basic
-    color: "#8e8e8e"
+    color: "#90aece"
     features:
-      - text: $25 per month
+      - text: €10 per maand
         highlight: true
-      - text: Up to 5 users
+      - text: 1 gebruiker
         highlight: false
-      - text: Basic lead scoring
+      - text: Facturen
         highlight: false
-      - text: CRM
+      - text: Facturen mailen
         highlight: false
-      - text: Basic reporting
-        highlight: false
-      - text: Sales map
+      - text:
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=basic
-      text: Get started
-  - name: Pro
-    color: "#4a4a4a"
+      text: Ja, ik wil Basic
+  - name: Pro - toekomst!
+    color: "#5d95d0"
     features:
-      - text: $99 per month
+      - text: €25 per maand
         highlight: true
-      - text: Everything in Basic
+      - text: Alles in Basic
         highlight: false
-      - text: Up to 25 users
+      - text: Tot 2 gebruikers
         highlight: false
-      - text: Advanced lead scoring
+      - text: Bonnen scannen
         highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
+      - text:
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
-    color: "#000000"
+      link:
+      text: Komt snel!
+  - name: Professional - toekomst!
+    color: "#2379d4"
     features:
-      - text: $299 per month
+      - text: €100 per maand
         highlight: true
-      - text: Everything in Basic and Pro
+      - text: Alles in Basic and Pro
         highlight: false
-      - text: Up to 100 users
+      - text: Tot 25 gebruikers
         highlight: false
-      - text: Campaign builder
+      - text: Belasting export
         highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
+      - text:
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+      link:
+      text: Komt snel
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+  - question: Welke betalingsmethoden accepteert paperwork?
+    answer: Credit cards waaronder MasterCard, Visa or American Express.
+  - question: Kan ik later van plan veranderen?
+    answer: Ja, je kan up- of down-graden wanneer je maar wilt.
+  - question: Zijn er speciale nonprofit organisatie prijzen?
+    answer: Ja, stuur ons een bericht en wij geven je een aanbieding.
+  - question: Vragen?
+    answer: Wij zijn bereikbaar om je vragen te beantwoorden via <a href="/contact">deze pagina</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
@@ -85,7 +79,7 @@ faq:
 </div>
 
 {% if page.faq %}
-	<h2>Pricing FAQ</h2>
+	<h2>Prijzen FAQ</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
 			<div>
