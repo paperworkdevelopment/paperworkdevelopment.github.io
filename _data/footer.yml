@@ -9,7 +9,7 @@
     link: /contact/
 - links:
   - name: Login
-    link: https://app.paper-work.nl/login
+    link: //app.paper-work.nl/login
     new_window: true
   - name: Registreren
     link: /registeren

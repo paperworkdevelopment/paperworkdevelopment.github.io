@@ -15,10 +15,10 @@
   new_window: false
   highlight: false
 - name: Login
-  link: /
+  link: //app.paper-work.nl/login
   new_window: true
   highlight: false
 - name: Registreren
-  link: /
-  new_window: true
+  link: /registreren
+  new_window: false
   highlight: true
