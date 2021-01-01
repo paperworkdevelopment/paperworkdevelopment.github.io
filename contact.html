@@ -4,19 +4,19 @@ heading: Neem contact met ons op
 description: Wij helpen je graag met een goede boekhouding.
 
 map:
-  latitude: 52.102370
-  longitude: 6.155770
-  address: "Zutphensestraat 171, Brummen, the Netherlands"
-  zoom: 13
-  maxZoom: 30
-  minZoom: 1
+latitude: 52.102370
+longitude: 6.155770
+address: "Zutphensestraat 171, Brummen, the Netherlands"
+zoom: 13
+maxZoom: 30
+minZoom: 1
 ---
 <div class="map" id="map"></div>
 
 
 <div class="contact-box">
   <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-    <input type="hidden" name="_to" value="support@example.com" />
+    <input type="hidden" name="_to" value="paperworkdevelopment@gmail.com" />
     <input type="text" name="_gotcha" style="display: none;">
 
     <label for="name">Naam</label>
@@ -51,122 +51,11 @@ map:
       draggable: true,
       panControl: true,
       disableDefaultUI: false,
-      // styles: [{
-      //   "featureType": "all",
-      //   "elementType": "labels.text.fill",
-      //   "stylers": [{
-      //     "saturation": 36
-      //   }, {
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 40
-      //   }]
-      // }, {
-      //   "featureType": "all",
-      //   "elementType": "labels.text.stroke",
-      //   "stylers": [{
-      //     "visibility": "on"
-      //   }, {
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 16
-      //   }]
-      // }, {
-      //   "featureType": "all",
-      //   "elementType": "labels.icon",
-      //   "stylers": [{
-      //     "visibility": "off"
-      //   }]
-      // }, {
-      //   "featureType": "administrative",
-      //   "elementType": "geometry.fill",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 20
-      //   }]
-      // }, {
-      //   "featureType": "administrative",
-      //   "elementType": "geometry.stroke",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 17
-      //   }, {
-      //     "weight": 1.2
-      //   }]
-      // }, {
-      //   "featureType": "landscape",
-      //   "elementType": "geometry",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 20
-      //   }]
-      // }, {
-      //   "featureType": "poi",
-      //   "elementType": "geometry",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 21
-      //   }]
-      // }, {
-      //   "featureType": "road.highway",
-      //   "elementType": "geometry.fill",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 17
-      //   }]
-      // }, {
-      //   "featureType": "road.highway",
-      //   "elementType": "geometry.stroke",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 29
-      //   }, {
-      //     "weight": 0.2
-      //   }]
-      // }, {
-      //   "featureType": "road.arterial",
-      //   "elementType": "geometry",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 18
-      //   }]
-      // }, {
-      //   "featureType": "road.local",
-      //   "elementType": "geometry",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 16
-      //   }]
-      // }, {
-      //   "featureType": "transit",
-      //   "elementType": "geometry",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 19
-      //   }]
-      // }, {
-      //   "featureType": "water",
-      //   "elementType": "geometry",
-      //   "stylers": [{
-      //     "color": "#000000"
-      //   }, {
-      //     "lightness": 17
-      //   }]
-      // }],
       zoom: window.mapData.zoom,
       maxZoom: window.mapData.maxZoom,
       minZoom: window.mapData.minZoom,
       center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-    //  mapTypeId: google.maps.MapTypeId.ROADMAP
+      //  mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), myOptions);
     marker = new google.maps.Marker({
@@ -179,4 +68,5 @@ map:
     });
   }
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0&callback=initMap"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0&callback=initMap"></script>
