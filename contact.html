@@ -4,18 +4,18 @@ heading: Neem contact met ons op
 description: Wij helpen je graag met een goede boekhouding.
 
 map:
-latitude: 52.102370
-longitude: 6.155770
-address: "Zutphensestraat 171, Brummen, the Netherlands"
-zoom: 13
-maxZoom: 30
-minZoom: 1
+  latitude: 52.102370
+  longitude: 6.155770
+  address: "Zutphensestraat 171, Brummen, the Netherlands"
+  zoom: 13
+  maxZoom: 30
+  minZoom: 1
 ---
 <div class="map" id="map"></div>
 
 
 <div class="contact-box">
-  <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+  <!-- <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
     <input type="hidden" name="_to" value="paperworkdevelopment@gmail.com" />
     <input type="text" name="_gotcha" style="display: none;">
 
@@ -29,7 +29,7 @@ minZoom: 1
     <textarea name="message" id="message" placeholder="Vertel ons waar wij mee kunnen helpen..."></textarea>
 
     <input type="submit" value="Verstuur bericht" />
-  </form>
+  </form> -->
 
   <div class="contact-details">
     <h3 class="editable">Adres</h3>
@@ -51,11 +51,12 @@ minZoom: 1
       draggable: true,
       panControl: true,
       disableDefaultUI: false,
+
       zoom: window.mapData.zoom,
       maxZoom: window.mapData.maxZoom,
       minZoom: window.mapData.minZoom,
       center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-      //  mapTypeId: google.maps.MapTypeId.ROADMAP
+    //  mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), myOptions);
     marker = new google.maps.Marker({
@@ -68,5 +69,4 @@ minZoom: 1
     });
   }
 </script>
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0&callback=initMap"></script>
