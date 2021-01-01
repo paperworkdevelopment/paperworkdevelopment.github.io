@@ -3,7 +3,7 @@
 
 title: paperwork - Boekhouden voor kleinere ondernemingen!
 url: "https://paperworkdevelopment.github.io"
-baseurl: "/"
+baseurl: 
 google_analytics_key:
 google_maps_javascript_api_key: AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0
 disqus_shortname:
