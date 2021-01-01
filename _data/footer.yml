@@ -12,7 +12,7 @@
     link: https://app.paper-work.nl/login
     new_window: true
   - name: Registreren
-    link: https://app.paper-work.nl/register
+    link: /registeren
     new_window: true
   - name: Voorwaarden
     link: /voorwaarden
