@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Paperwork - Boekhouden voor kleinere ondernemingen!
-url: "https://proud-alligator.cloudvent.net"
+title: paperwork - Boekhouden voor kleinere ondernemingen!
+url: "https://paper-work.nl"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
+google_maps_javascript_api_key: AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Steek de kostbare tijd die je hebt in datgene waar je goed in bent
-author:
+author: Henry Cordes, Dev Artist
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Paperwork
+  name: paperwork
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://app.paperwork.nl
 
 # -----
 # Build
