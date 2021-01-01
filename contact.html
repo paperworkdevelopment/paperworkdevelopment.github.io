@@ -11,35 +11,39 @@ map:
   maxZoom: 30
   minZoom: 1
 ---
-<div class="map" id="map"></div>
-
 
 <div class="contact-box">
-  <!-- <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-    <input type="hidden" name="_to" value="paperworkdevelopment@gmail.com" />
-    <input type="text" name="_gotcha" style="display: none;">
+  <form action="https://formspree.io/f/xjvppdwj" method="POST" class="contact-form">
+    <input type="hidden" name="_next" value="//paper-work.nl/contact-success/" />
+    <input type="hidden" name="_subject" value="paperwork: contact formulier" />
 
     <label for="name">Naam</label>
     <input type="text" name="name" id="name" placeholder="Voer je naam in..." />
 
     <label for="email">Email</label>
-    <input type="email" name="email" id="email" placeholder="Voer je email in..." required />
+    <input type="email" name="_replyto" id="_replyto" placeholder="Voer je email in..." required />
 
     <label for="message">Bericht</label>
     <textarea name="message" id="message" placeholder="Vertel ons waar wij mee kunnen helpen..."></textarea>
 
     <input type="submit" value="Verstuur bericht" />
-  </form> -->
+  </form>
+</div>
 
+<div class="map" id="map"></div>
+
+<!-- <div class="contact-box">
   <div class="contact-details">
     <h3 class="editable">Adres</h3>
-    <address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{
-        page.map.address | replace: ", ", ", <br>" }}</a></address>
+    <address>{{
+        page.map.address | replace: ", ", ", <br>" }}</address>
+        <a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">Bekijk</a>
 
-    <h3 class="editable">Email</h3>
-    <p><a href="mailto:paperworkdevelopment@gmail.com">paperworkdevelopment at gmail.com</a></p>
+    <!-- <h3 class="editable">Email</h3>
+    <p><a href="mailto:paperworkdevelopment at gmail.com">paperworkdevelopment at gmail.com</a></p> -->
   </div>
-</div>
+</div> -->
+
 
 <script type="text/javascript">
 
