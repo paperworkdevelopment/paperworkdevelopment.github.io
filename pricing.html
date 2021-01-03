@@ -1,65 +1,66 @@
 ---
 title: Prijzen
 heading: Kies het perfecte plan dat het best past bij jou
-description: Al onderstaande plannen begeleiden je naar succes en helpen je meer tijd te laten stoppen in datgene waar je goed in bent.
+description: Al onderstaande plannen begeleiden je naar succes en helpen je meer tijd te laten stoppen in datgene waar
+je goed in bent.
 pricing_table:
 - name: Basic
-  color: "#2379d4"
-  features:
-    - text: €10 per maand
-      highlight: true
-    - text: 1 gebruiker
-      highlight: false
-    - text: Facturen
-      highlight: false
-    - text: Facturen mailen
-      highlight: false
-    - text:
-      highlight: false
-  call_to_action:
-    link: //app.paper-work.nl/register
-    text: Ja, ik wil Basic
+color: "#2379d4"
+features:
+- text: €10 per maand
+highlight: true
+- text: 1 gebruiker
+highlight: false
+- text: Facturen
+highlight: false
+- text: Facturen mailen
+highlight: false
+- text:
+highlight: false
+call_to_action:
+link: //app.paper-work.nl/subscribe
+text: Ja, ik wil Basic
 - name: Pro - toekomst!
-  color: "#5d95d0"
-  features:
-    - text: ±€25 per maand
-      highlight: true
-    - text: Alles in Basic
-      highlight: false
-    - text: Tot 2 gebruikers
-      highlight: false
-    - text: Bonnen via telefoon
-      highlight: false
-    - text:
-      highlight: false
-  call_to_action:
-    link:
-    text: Komt snel!
+color: "#5d95d0"
+features:
+- text: ±€25 per maand
+highlight: true
+- text: Alles in Basic
+highlight: false
+- text: Tot 2 gebruikers
+highlight: false
+- text: Bonnen via telefoon
+highlight: false
+- text:
+highlight: false
+call_to_action:
+link:
+text: Komt snel!
 - name: Professional - toekomst!
-  color: "#90aece"
-  features:
-    - text: ±€100 per maand
-      highlight: true
-    - text: Alles in Basic en Pro
-      highlight: false
-    - text: Tot 25 gebruikers
-      highlight: false
-    - text: Belasting export
-      highlight: false
-    - text:
-      highlight: false
-  call_to_action:
-    link:
-    text: Komt snel!
+color: "#90aece"
+features:
+- text: ±€100 per maand
+highlight: true
+- text: Alles in Basic en Pro
+highlight: false
+- text: Tot 25 gebruikers
+highlight: false
+- text: Belasting export
+highlight: false
+- text:
+highlight: false
+call_to_action:
+link:
+text: Komt snel!
 faq:
-  - question: Welke betalingsmethoden accepteert paperwork?
-    answer: Ideal en credit cards waaronder MasterCard, Visa or American Express.
-  - question: Kan ik later van plan veranderen?
-    answer: Ja, je kan up- of down-graden wanneer je maar wilt.
-  - question: Zijn er speciale nonprofit organisatie prijzen?
-    answer: Ja, stuur ons een bericht en wij geven je een aanbieding.
-  - question: Vragen?
-    answer: Wij zijn bereikbaar om je vragen te beantwoorden via <a href="/contact">deze pagina</a>.
+- question: Welke betalingsmethoden accepteert paperwork?
+answer: Ideal en credit cards waaronder MasterCard, Visa or American Express.
+- question: Kan ik later van plan veranderen?
+answer: Ja, je kan up- of down-graden wanneer je maar wilt.
+- question: Zijn er speciale nonprofit organisatie prijzen?
+answer: Ja, stuur ons een bericht en wij geven je een aanbieding.
+- question: Vragen?
+answer: Wij zijn bereikbaar om je vragen te beantwoorden via <a href="/contact">deze pagina</a>.
 ---
 <div class="plans">
   {% for plan in page.pricing_table %}
@@ -73,7 +74,8 @@ faq:
 
     {% if plan.call_to_action %}
     <li class="pricing-cta">
-      <div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}" target="_blank">{{
+      <div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}"
+          target="_blank">{{
           plan.call_to_action.text }} &rarr;</a></div>
     </li>
     {% endif %}
