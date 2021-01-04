@@ -21,7 +21,7 @@ Daarom ben ik begonnen deze adminstratieve taken, waar ik zelf eigenlijk niet va
 
 ![paperwork](/images/dashboard.png)
 
-Natuurlijk heb ik zelf wel de nodige ideëen, maar toch wil ik erachter komen of mijn ideëen ook voor anderen werken, daarom wil ik kijken of er mensen zijn die willen helpen om paperwork zo goed mogelijk te maken, door het gebruik kostenloos aan te bieden in ruil voor gebruikers feedback, dit kan gewoon via de website, ga naar deze pagina: [meld je aan](/registreren).
+Natuurlijk heb ik zelf wel de nodige ideëen, maar toch wil ik erachter komen of mijn ideëen ook voor anderen werken, daarom wil ik kijken of er mensen zijn die willen helpen om paperwork zo goed mogelijk te maken, door het gebruik kostenloos aan te bieden in ruil voor gebruikers feedback, dit kan gewoon via de website, ga naar deze pagina: [meld je aan](/offer).
 
 ### Bedankt!
 

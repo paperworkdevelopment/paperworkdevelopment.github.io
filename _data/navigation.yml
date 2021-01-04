@@ -10,15 +10,19 @@
   link: /about/
   new_window: false
   highlight: false
+- name: Aanbieding
+  link: /offer/
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false
   highlight: false
 - name: Login
-  link: //app.paper-work.nl/login
+  link: https://app.paper-work.nl/login
   new_window: true
   highlight: false
 - name: Registreren
-  link: /registreren
-  new_window: false
+  link: https://app.paper-work.nl/subscribe
+  new_window: true
   highlight: true
