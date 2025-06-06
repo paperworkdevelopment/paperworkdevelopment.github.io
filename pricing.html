@@ -1,24 +1,44 @@
 ---
 title: Prijzen
 heading: Prijzen voor ondernemers
-description: Momenteel bieden wij 1 plan aan waarmee wij je boekhouding eenvoudiger maken.
+description: Momenteel bieden wij 1 plan aan, met twee betalingsmogelijkheden waarmee wij je boekhouding eenvoudiger maken. Alle functionaliteiten in de applicatie en de app zijn inbegrepen.
 pricing_table:
-- name: Essentials
-  color: "#2379d4"
-  features:
-    - text: €7,50 per maand
-      highlight: true
-    - text: 1 gebruiker
-      highlight: false
-    - text: Facturen
-      highlight: false
-    - text: Facturen mailen
-      highlight: false
-    - text:
-      highlight: false
-  call_to_action:
-    link: //app.paper-work.nl/subscribe
-    text: Ja, ik wil Essentials
+  - name: Essentials
+    color: "#2379d4"
+    features:
+      - text: €9,99 per maand
+        highlight: true
+      - text: 1 gebruiker
+        highlight: false
+      - text: Facturen
+        highlight: false
+      - text: Facturen mailen
+        highlight: false
+      - text: Bonnen scannen met app
+        highlight: false
+      - text:
+        highlight: false
+    call_to_action:
+      link: //app.paper-work.nl/subscribe
+      text: Ja, ik wil Essentials
+  - name: Essentials Year
+    color: "#2379d4"
+    features:
+      - text: €99,99 per jaar
+        highlight: true
+      - text: 1 gebruiker
+        highlight: false
+      - text: Facturen
+        highlight: false
+      - text: Facturen mailen
+        highlight: false
+      - text: Bonnen scannen met app
+        highlight: false
+      - text:
+        highlight: false
+    call_to_action:
+      link: //app.paper-work.nl/subscribe/year
+      text: Ja, ik wil Essentials Year
 faq:
   - question: Welke betalingsmethoden accepteert paperwork?
     answer: Ideal en credit cards waaronder MasterCard, Visa or American Express.
@@ -29,6 +49,7 @@ faq:
   - question: Vragen?
     answer: Wij zijn bereikbaar om je vragen te beantwoorden via <a href="/contact">deze pagina</a>.
 ---
+
 <div class="plans">
   {% for plan in page.pricing_table %}
   <ul class="plan">
@@ -36,14 +57,19 @@ faq:
       <h3>{{ plan.name }}</h3>
     </li>
     {% for feature in plan.features %}
-    <li {% if feature.highlight %} class="highlighted" {% endif %}>{{ feature.text }}</li>
-    {% endfor %}
-
-    {% if plan.call_to_action %}
+    <li {% if feature.highlight %} class="highlighted" {% endif %}>
+      {{ feature.text }}
+    </li>
+    {% endfor %} {% if plan.call_to_action %}
     <li class="pricing-cta">
-      <div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}"
-          target="_blank">{{
-          plan.call_to_action.text }} &rarr;</a></div>
+      <div class="button">
+        <a
+          style="background: {{ plan.color }}"
+          href="{{ plan.call_to_action.link }}"
+          target="_blank"
+          >{{ plan.call_to_action.text }} &rarr;</a
+        >
+      </div>
     </li>
     {% endif %}
   </ul>
