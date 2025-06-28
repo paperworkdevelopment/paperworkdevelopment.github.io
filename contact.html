@@ -2,6 +2,7 @@
 title: Contact
 heading: Neem contact met ons op
 description: Wij helpen je graag met een goede boekhouding.
+permalink: /contact/
 
 map:
   latitude: 52.102370
@@ -13,18 +14,36 @@ map:
 ---
 
 <div class="contact-box">
-  <form action="https://formspree.io/f/xjvppdwj" method="POST" class="contact-form">
-    <input type="hidden" name="_next" value="//paper-work.nl/contact-success/" />
+  <form
+    action="https://formspree.io/f/xjvppdwj"
+    method="POST"
+    class="contact-form"
+  >
+    <input
+      type="hidden"
+      name="_next"
+      value="//paper-work.nl/contact-success/"
+    />
     <input type="hidden" name="_subject" value="paperwork: contact formulier" />
 
     <label for="name">Naam</label>
     <input type="text" name="name" id="name" placeholder="Voer je naam in..." />
 
     <label for="email">Email</label>
-    <input type="email" name="_replyto" id="_replyto" placeholder="Voer je email in..." required />
+    <input
+      type="email"
+      name="_replyto"
+      id="_replyto"
+      placeholder="Voer je email in..."
+      required
+    />
 
     <label for="message">Bericht</label>
-    <textarea name="message" id="message" placeholder="Vertel ons waar wij mee kunnen helpen..."></textarea>
+    <textarea
+      name="message"
+      id="message"
+      placeholder="Vertel ons waar wij mee kunnen helpen..."
+    ></textarea>
 
     <input type="submit" value="Verstuur bericht" />
   </form>
@@ -35,12 +54,14 @@ map:
 <div class="contact-box">
   <div class="contact-details">
     <h3 class="editable">Adres</h3>
-    <address>{{
-        page.map.address | replace: ", ", ", <br>" }}</address>
-        <a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">Bekijk</a
+    <address>{{ page.map.address | replace: ", ", ", <br />" }}</address>
+    <a
+      target="_blank"
+      href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}"
+      >Bekijk</a
+    >
   </div>
 </div>
-
 
 <script type="text/javascript">
 
@@ -70,4 +91,8 @@ map:
     });
   }
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0&callback=initMap"></script>
+<script
+  async
+  defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDACR8v6Q_NZlsjmvU4XVtaiIKw45Go-L0&callback=initMap"
+></script>

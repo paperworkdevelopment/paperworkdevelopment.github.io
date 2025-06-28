@@ -2,6 +2,10 @@
   link: /pricing/
   new_window: false
   highlight: false
+- name: App
+  link: /mobile/
+  new_window: false
+  highlight: false
 - name: Blog
   link: /blog/
   new_window: false
