@@ -83,12 +83,11 @@
 .app-title {
   display: flex;
   align-items: center;
-
   gap: 10px;
-  justify-content: center;
   font-weight: 300;
   font-size: 2.3em;
   margin: 0;
+  justify-content: center;
 }
 
 @media #{$desktop} {
