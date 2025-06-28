@@ -67,6 +67,19 @@
   }
 }
 
+.app-pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.app-download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 @media #{$desktop} {
   .flex {
     @include flexbox;
