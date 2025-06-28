@@ -89,14 +89,14 @@
   margin: 0;
 
   img {
-    height: 24px;
-    width: 24px;
+    height: 24px !important;
+    width: 24px !important;
   }
 }
 
 .app-logo {
-  height: 24px;
-  width: 24px;
+  height: 24px !important;
+  width: 24px !important;
 }
 
 @media #{$desktop} {
