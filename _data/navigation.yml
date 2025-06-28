@@ -6,10 +6,6 @@
   link: /mobile/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
 - name: Over
   link: /about/
   new_window: false
