@@ -94,6 +94,11 @@
   }
 }
 
+.app-logo {
+  height: 24px;
+  width: 24px;
+}
+
 @media #{$desktop} {
   .flex {
     @include flexbox;
