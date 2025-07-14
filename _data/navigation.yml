@@ -18,11 +18,7 @@
   link: /contact/
   new_window: false
   highlight: false
-- name: Login
+- name: Dashboard
   link: https://app.paper-work.nl/dashboard
-  new_window: true
-  highlight: false
-- name: Registreren
-  link: https://app.paper-work.nl/subscribe
   new_window: true
   highlight: true
