@@ -21,6 +21,7 @@
 
   .testimonial-block {
     max-width: 750px;
+    min-width: 570px;
     width: 98%;
     margin: 0 auto;
 
@@ -33,6 +34,10 @@
       }
     }
   }
+}
+
+.testimonial-container {
+  overflow-x: auto;
 }
 
 .hero {
